@@ -1,0 +1,324 @@
+.parent{
+    
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center ;
+    gap: 25px;
+   
+   
+    
+
+    
+    
+}
+.parent div{
+    align-self: center;
+}
+
+
+
+.test1{
+  
+  width: 1500px;
+  align-self: center;
+  background-color:  hsl(193, 100%, 96%);
+  height: 600px;
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 300px inherit;
+  background-position:-100px 0px  ;
+  
+}
+.test1 .img1{
+    width: 500px;
+    height: 400px;
+    transform: translate(140px,-100px);
+}
+.test1 .img2{
+   transform: translate(-460px,-570px);
+}
+  .test1 .ssss{
+    border-radius: 30px;
+    font-size: large;
+    height: 60px;
+    width: 300px;
+    color: white;
+    background-color:  hsl(322, 100%, 66%);
+    transform: translate(80px,-150px);
+
+}
+.test1 .sss{
+    border-radius: 30px;
+    font-size: large;
+    height: 60px;
+    width: 200px;
+    color: black;
+    background-color:  white;
+    position: relative;
+    bottom: 100px;
+    right: -70px;
+    transform: translate(900px,-480px);
+
+
+}
+.test1 h1{
+    
+    text-align: start;
+    font-size: 50px;
+    position: relative;
+    top: 150px;
+    right: -50px;
+    
+    
+}
+.test1 pre{
+    text-wrap: wrap;
+    font-size: x-large;
+    position: relative;
+    top: 200px;
+    right: -50px;
+}
+
+.test2{
+   margin-top: 130px;
+   background-color:white;
+   border-radius: 10px;
+   box-shadow: 0px 0px 100px 5px rgba(231, 231, 231, 0.863);
+    width: 1200px;
+    height: 400px;
+ }
+ .test2 pre{
+
+    position: relative;
+    bottom: -150px;
+ }
+ .test2 h1{
+    position: relative;
+    bottom: -140px;
+    right: -70px;
+
+
+ }
+ .test2 img{
+
+    width: 480px;
+    height: 270px;
+    transform: translate(600px , -100px);
+
+ }
+ .test3{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 100px 20px rgba(231, 231, 231, 0.842);
+     width: 1200px;
+     height: 400px;
+    
+ }
+
+ .test3 pre{
+
+    position: relative;
+    bottom: -150px;
+    right: -650px;
+ }
+ .test3 h1{
+    position: relative;
+    bottom: -150px;
+    right: -720px;
+ }
+
+ .test3 img{
+    width: 480px;
+    height: 270px;
+    transform: translate(40px,-70px);
+
+ }
+ .test4{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 100px 20px rgba(231, 231, 231, 0.842);
+     width: 1200px;
+     height: 400px;
+  
+ }
+ .test4 pre{
+
+    position: relative;
+    bottom: -150px;
+    right: -650px;
+ }
+ .test4 h1{
+    position: relative;
+    bottom: -150px;
+    right: -720px;
+ }
+ .test4 img{
+    width: 480px;
+    height: 270px;
+    transform: translate(40px,-70px);
+ }
+ .test5{
+  padding: 0px 100px 0px 100px;
+  margin-top: 100px;
+   width: 1500px;
+   height: 500px;
+   background-color:hsl(192, 100%, 9%);
+    display: grid;
+    grid-template-columns: 500px repeat(3,200px);
+    grid-template-rows:100px repeat(2,50px);
+   justify-content: center;
+   align-content: center;
+    gap: 10px;
+    grid-template-areas: 
+
+    "lorem      fone   gmail  zrar"
+    "Whatwedo   FAQ    career   career  "
+    "Contactus Aboutus Blog     Blog   "
+    ;
+
+ }
+ .test5 div{
+   
+   font-size: xx-large;
+   width: fit-content;
+   
+   
+ }
+
+ .lorem{
+   
+   grid-area: lorem ;
+   transform: translate(-50px,70px);
+
+ }
+ .fone{
+   grid-area: fone ;
+   transform: translate(200px,145px);
+   
+ }
+ .gmail{
+   grid-area: gmail ;
+   
+ }
+ .Aboutus{
+   grid-area: Aboutus ;
+   transform: translate(0px,-145px);
+   
+ }
+ .Whatwedo{
+
+   grid-area: Whatwedo ;
+   transform: translate(-50px,100px);
+ }
+ .FAQ{
+   grid-area: FAQ ;
+   transform: translate(20px,55px);
+   }
+ 
+ .career{
+   grid-area: career ;
+   transform: translate(-210px,-15px);
+   
+
+ }
+ .Blog{
+
+   grid-area: Blog ;
+   transform: translate(0px,-75px);
+   
+ }
+ .Contactus{
+   grid-area: Contactus ;
+   transform: translate(-50px,100px);
+   
+ }
+ .zrar{
+   grid-area: zrar ;
+   transform: translate(200px,0px);
+
+ }
+ a{
+  text-decoration: none;
+  color:  hsl(208, 11%, 55%);
+
+ }
+ a:hover{
+  text-decoration: underline white;
+ }
+  button a:hover{
+  color: hsl(322, 100%, 66%);
+  text-decoration: none;
+  
+ }
+ button a{
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 800;
+  color: white;
+  
+ }
+ button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:hsl(192, 100%, 9%);
+
+ } 
+ 
+ 
+ ul{
+   list-style-type: none;
+   background-color:hsl(192, 100%, 9%);
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   gap: 10px;
+   transform: translate(100px,20px);
+   
+ }
+ i{
+   border: solid 1px ;
+   border-radius: 50%;
+   padding: 15px;
+   color: white;
+   font-size: 2rem;
+ }
+ i:hover{
+   color:  hsl(322, 100%, 66%);
+
+ }
+
+ .test6 img{
+  background-color: aliceblue;
+  transform: translate(-700px,-500px);
+ }
+ .test7{
+  
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgba(231, 231, 231, 0.842);
+     width: 800px;
+     height: 300px;
+     transform: translate(0px,150px);
+
+ }
+ .test7 button {
+  
+    border-radius: 30px;
+    font-size: x-large;
+    height: 70px;
+    width: 400px;
+    color: white;
+    background-color:  hsl(322, 100%, 66%);
+    transform: translate(190px,10px);
+ }
+ 
+ 
+ .test7 h1{
+  text-align: center;
+  font-weight: 400px;
+  font-size: xx-large;
+  margin-top: 100px;
+ }
+ 
